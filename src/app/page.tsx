@@ -129,7 +129,7 @@ export default function Home() {
       {/* section 4 */}
       <section className="w-full flex flex-col items-center justify-center py-20">
         <div
-          className="contactcard font-FiraCode text-sm md:text-lg"
+          className="contactcard font-FiraCode text-xs md:text-lg"
           style={{ tabSize: 4 }}
         >
           <pre>
