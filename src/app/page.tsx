@@ -1,11 +1,8 @@
 "use client";
 
-// import Binary from "@/components/Binary";
-import Image from "next/image";
 import Scramble from "react-scramble";
 import dynamic from "next/dynamic";
 
-import { Bubble } from "react-bubble-ui-v2";
 import Card from "@/components/Card";
 
 const Binary = dynamic(() => import("@/components/Binary"), { ssr: false });
@@ -134,7 +131,7 @@ export default function Home() {
         <div className="contactcard font-FiraCode md:text-lg" style={{ tabSize: 4 }}>
           <pre>
             <span className="text-yellow-500">const</span> Contact = <span className="text-[#139ff7]">()</span> &rArr; <span className="text-[#139ff7]">&#123;</span> <br />
-            &emsp;&emsp;&emsp;&emsp;<span className="text-gray-500">// feel free to contact</span> <br />
+            &emsp;&emsp;&emsp;&emsp;<span className="text-gray-500">&frasl;* feel free to contact *&frasl;</span> <br />
             &emsp;&emsp;&emsp;&emsp;<span className="text-pink-600">return</span> &#123; <br />
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span className="text-green-500">email</span> :
             &quot;codebreakersgcek01@gmail.com&quot; <br />
