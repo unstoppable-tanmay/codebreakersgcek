@@ -53,7 +53,7 @@ export default function Home() {
       <section className="w-full h-screen flex items-center justify-center relative">
         <Binary />
         <div className="text flex flex-col items-center justify-center">
-          <div className="text-[6vw] font-semibold z-50">
+          <div className="text-[10vw] md:text-[8vw] lg:text-[6vw] font-semibold z-50">
             &lt;
             <Scramble
               autoStart
@@ -73,7 +73,7 @@ export default function Home() {
             />
             /&gt;
           </div>
-          <div className="desc text-[1.5vw] leading-[10px] font-FiraCode">
+          <div className="text-[4vw] md:text-[3vw] lg:text-[1.5vw] desc  leading-[10px] font-FiraCode">
             We Are The Future 🚀
           </div>
         </div>
@@ -128,22 +128,37 @@ export default function Home() {
       </section>
       {/* section 4 */}
       <section className="w-full flex flex-col items-center justify-center py-20">
-        <div className="contactcard font-FiraCode md:text-lg" style={{ tabSize: 4 }}>
+        <div
+          className="contactcard font-FiraCode text-sm md:text-lg"
+          style={{ tabSize: 4 }}
+        >
           <pre>
-            <span className="text-yellow-500">const</span> Contact = <span className="text-[#139ff7]">()</span> &rArr; <span className="text-[#139ff7]">&#123;</span> <br />
-            &emsp;&emsp;&emsp;&emsp;<span className="text-gray-500">&frasl;* feel free to contact *&frasl;</span> <br />
-            &emsp;&emsp;&emsp;&emsp;<span className="text-pink-600">return</span> &#123; <br />
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span className="text-green-500">email</span> :
+            <span className="text-yellow-500">const</span> Contact ={" "}
+            <span className="text-[#139ff7]">()</span> &rArr;{" "}
+            <span className="text-[#139ff7]">&#123;</span> <br />
+            &emsp;&emsp;&emsp;&emsp;
+            <span className="text-gray-500">
+              &frasl;* feel free to contact *&frasl;
+            </span>{" "}
+            <br />
+            &emsp;&emsp;&emsp;&emsp;
+            <span className="text-pink-600">return</span> &#123; <br />
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <span className="text-green-500">email</span> :
             &quot;codebreakersgcek01@gmail.com&quot; <br />
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span className="text-green-500">insta</span> :
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <span className="text-green-500">insta</span> :
             &quot;instagram.com/codebreakersgcek&quot; <br />
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span className="text-green-500">github</span> :
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <span className="text-green-500">github</span> :
             &quot;github.com/codebreakersgcek&quot; <br />
-            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span className="text-green-500">website</span> :
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <span className="text-green-500">website</span> :
             &quot;codebreakersgcek.engineer&quot; <br />
             &emsp;&emsp;&emsp;&emsp;
             <span className="text-[#139ff7]">&#125;</span>
-            <br /><span className="text-[#139ff7]">&#125;</span>
+            <br />
+            <span className="text-[#139ff7]">&#125;</span>
           </pre>
         </div>
       </section>
