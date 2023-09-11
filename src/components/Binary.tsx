@@ -1,12 +1,16 @@
-import React, { useEffect, useRef, useState, useMemo } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Binary = () => {
   const [show, setShow] = useState(true);
   const [cube, setCube] = useState(0);
-  const binref = useRef(null);
+  const binref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setCube(Math.floor((binref.current?.clientHeight * binref.current?.clientWidth) / 400));
+    setCube(
+      Math.floor(
+        (binref.current!.clientHeight * binref.current!.clientWidth) / 400
+      )
+    );
   }, [binref]);
 
   return show ? (
