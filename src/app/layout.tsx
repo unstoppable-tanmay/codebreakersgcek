@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "CodeBreakers",
+  icons: '/codebreakers_logo.svg',
+  title: "<CodeBreakers/>",
   description: "A Coding Club For Creating The Future",
 };
 

@@ -39,7 +39,7 @@ const Alumunis = [
     batch: "2019-2023",
   },
   {
-    name: "Avisekh Samal",
+    name: "Avishek Samal",
     img: "/avisekh_samal.jpeg",
     spec: "Fullstack Developer",
     batch: "2019-2023",
@@ -77,7 +77,7 @@ export default function Home() {
             We Are The Future 🚀
           </div>
         </div>
-        <div className="bg-gradient-sec1 absolute w-full h-[20%] z-30 bottom-0"></div>
+        <div className="bg-gradient-sec1 absolute w-full h-[20%] z-30 bottom-0 pointer-events-none"></div>
       </section>
       {/* Section 2 */}
       <section className="w-full flex items-center justify-center min-h-[70vh] flex-col">
@@ -147,14 +147,23 @@ export default function Home() {
             <span className="text-green-500">email</span> :
             &quot;codebreakersgcek01@gmail.com&quot; <br />
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <span className="text-green-500">insta</span> :
-            &quot;instagram.com/codebreakersgcek&quot; <br />
+            <span className="text-green-500">insta</span> : &quot;
+            <a target="blank" href="https:/instagram.com/codebreakersgcek">
+              instagram.com/codebreakersgcek
+            </a>
+            &quot; <br />
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <span className="text-green-500">github</span> :
-            &quot;github.com/codebreakersgcek&quot; <br />
+            <span className="text-green-500">github</span> : &quot;
+            <a target="blank" href="https:/github.com/codebreakersgcek">
+              github.com/codebreakersgcek
+            </a>
+            &quot; <br />
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <span className="text-green-500">website</span> :
-            &quot;codebreakersgcek.engineer&quot; <br />
+            <span className="text-green-500">website</span> : &quot;
+            <a target="blank" href="https:/codebreakersgcek.engineer">
+              codebreakersgcek.engineer
+            </a>
+            &quot; <br />
             &emsp;&emsp;&emsp;&emsp;
             <span className="text-[#139ff7]">&#125;</span>
             <br />
